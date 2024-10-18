@@ -5,13 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { DishService, Dish } from '../../services/dish.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-dish-form',
   templateUrl: './dish-form.component.html',
   styleUrls: ['./dish-form.component.css'],
   standalone: true,
-  imports: [FormsModule, CommonModule]
+  imports: [FormsModule, CommonModule, RouterModule]
 })
 export class DishFormComponent implements OnInit {
   dish: Dish = {

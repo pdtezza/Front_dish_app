@@ -15,7 +15,7 @@ export interface Dish {
   providedIn: 'root'
 })
 export class DishService {
-  private apiUrl = 'http://localhost:8080/dishes';
+  private apiUrl = 'http://localhost:3000/dishes';
 
   constructor(private http: HttpClient) {}
 

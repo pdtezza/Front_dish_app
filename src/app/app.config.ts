@@ -5,6 +5,7 @@ import { provideRouter, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { DishListComponent } from './components/dish-list/dish-list.component';
 import { DishFormComponent } from './components/dish-form/dish-form.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 const routes: Routes = [
   { path: '', component: DishListComponent },
@@ -15,6 +16,6 @@ const routes: Routes = [
 export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
-    importProvidersFrom(HttpClientModule)
+    importProvidersFrom(HttpClientModule), provideAnimationsAsync()
   ]
 };

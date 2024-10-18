@@ -1,0 +1,76 @@
+{
+  "dishes": [
+    {
+      "id": 2,
+      "name": "kauan",
+      "description": "batista",
+      "price": 99
+    },
+    {
+      "id": 1,
+      "name": "kauan",
+      "description": "vas",
+      "price": 34
+    },
+    {
+      "id": 2,
+      "name": "lasanha",
+      "description": "com queijo",
+      "price": 123
+    },
+    {
+      "id": 1,
+      "name": "lasanha",
+      "description": "com queijo",
+      "price": 23
+    },
+    {
+      "id": 2,
+      "name": "lasanha",
+      "description": "de carne",
+      "price": 44
+    },
+    {
+      "id": 3,
+      "name": "camarao",
+      "description": "com limão",
+      "price": 12
+    },
+    {
+      "id": 4,
+      "name": "quero mais",
+      "description": "dgrge",
+      "price": 234
+    },
+    {
+      "id": 5,
+      "name": "122",
+      "description": "1dg",
+      "price": 13
+    },
+    {
+      "id": 1,
+      "name": "qu",
+      "description": "jndf",
+      "price": 2
+    },
+    {
+      "id": 6,
+      "name": "lasanha",
+      "description": "com queijo",
+      "price": 12
+    },
+    {
+      "id": 7,
+      "name": "kauan",
+      "description": "lasanha",
+      "price": 23
+    },
+    {
+      "id": "1119",
+      "name": "lasanha",
+      "description": "lasanha com queijo",
+      "price": 23
+    }
+  ]
+}
